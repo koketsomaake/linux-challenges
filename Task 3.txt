@@ -1,0 +1,36 @@
+1.  recruit@umuzi-admin:~/workspace$ touch umuzi.md
+    recruit@umuzi-admin:~/workspace$ touch recruits.md
+    recruit@umuzi-admin:~/workspace$ touch cohort.md
+    \recruit@umuzi-admin:~/workspace$ ls
+    CHANGELOG.md  cohort.md  READ.md  recruits.md  umuzi.md
+
+
+
+2.  recruit@umuzi-admin:~/workspace$ echo "good day" > umuzi.md
+    recruit@umuzi-admin:~/workspace$ cat umuzi.md
+    good day
+    recruit@umuzi-admin:~/workspace$ echo "good morning" > recruits.md 
+    recruit@umuzi-admin:~/workspace$ cat recruits.md
+    good morning
+    recruit@umuzi-admin:~/workspace$ echo "goodnight" > cohort.md
+
+
+3.  recruit@umuzi-admin:~/workspace$ cat umuzi.md recruits.md cohort.md >> summary.md
+    good day
+    good morning
+    goodnight
+
+
+
+4.  recruit@umuzi-admin:~/workspace$ cat summary.md
+    good day
+    good morning
+    goodnight
+
+
+
+5.  recruit@umuzi-admin:~/workspace$ cat summary.md
+    good day
+    good morning
+    goodnight
+    The End 

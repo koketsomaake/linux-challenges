@@ -1,0 +1,41 @@
+recruit@umuzi-admin:~$ ls
+ Desktop        Downloads                    Music      Templates
+'[directory]'   idea-IC-191.6183.87          Pictures   Videos
+ Documents      ideaIC-2019.1-jbr11.tar.gz   Public     workspace
+recruit@umuzi-admin:~$ touch exercise.md
+recruit@umuzi-admin:~$ ls
+ Desktop        exercise.md                  Pictures    workspace
+'[directory]'   idea-IC-191.6183.87          Public
+ Documents      ideaIC-2019.1-jbr11.tar.gz   Templates
+ Downloads      Music                        Videos
+recruit@umuzi-admin:~$ mv exercise.md /tmp
+recruit@umuzi-admin:~$ cd /tmp
+recruit@umuzi-admin:/tmp$ ls
+ config-err-6iR0zD
+ exercise.md
+ mintUpdate
+ net-export
+'Slack Crashes'
+ ssh-xszzStpDhGiF
+ systemd-private-3abf541b4af54aee8ab5131a48938294-ModemManager.service-jRSXRk
+ systemd-private-3abf541b4af54aee8ab5131a48938294-ntp.service-1pBUZn
+ systemd-private-3abf541b4af54aee8ab5131a48938294-rtkit-daemon.service-RjLTMk
+ systemd-private-3abf541b4af54aee8ab5131a48938294-systemd-resolved.service-RZfoxQ
+'VSCode Crashes'
+recruit@umuzi-admin:/tmp$ ~
+bash: /home/recruit: Is a directory
+recruit@umuzi-admin:/tmp$ cd ~
+recruit@umuzi-admin:~$ rm /tmp/exercise.md
+recruit@umuzi-admin:~$ cd /tmp
+recruit@umuzi-admin:/tmp$ ls
+ config-err-6iR0zD
+ mintUpdate
+ net-export
+'Slack Crashes'
+ ssh-xszzStpDhGiF
+ systemd-private-3abf541b4af54aee8ab5131a48938294-ModemManager.service-jRSXRk
+ systemd-private-3abf541b4af54aee8ab5131a48938294-ntp.service-1pBUZn
+ systemd-private-3abf541b4af54aee8ab5131a48938294-rtkit-daemon.service-RjLTMk
+ systemd-private-3abf541b4af54aee8ab5131a48938294-systemd-resolved.service-RZfoxQ
+'VSCode Crashes'
+recruit@umuzi-admin:/tmp$

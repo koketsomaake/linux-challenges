@@ -1,0 +1,13 @@
+1. recruit@umuzi-admin:~$ nano my_bio.md
+
+
+
+2. Ctrl o to save and ctrl x to exit
+
+
+3. recruit@umuzi-admin:~$ find mkdir my_files
+
+    recruit@umuzi-admin:~$ find mv my_bio my_files
+    recruit@umuzi-admin:~$ find cd my_files
+    recruit@umuzi-admin:~/ my_files$ ls
+    my_bio.md

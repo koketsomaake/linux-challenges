@@ -1,0 +1,16 @@
+1.  recruit@umuzi-admin:~$ find  -iname "*.pdf"
+    ./Downloads/ForexSecrets15min_EN.pdf
+
+2.  recruit@umuzi-admin:~$ find ./Downloads/ -name "*pdf" -exec cp {} ./Desktop \;
+    recruit@umuzi-admin:~$ cd Desktop
+    recruit@umuzi-admin:~/Desktop$ ls
+    ForexSecrets15min_EN.pdf   google-chrome.desktop  'new file'   pad_copy   work
+
+3.  recruit@umuzi-admin:~$ find -maxdepth 1 -newermt "2020-01-16"
+.
+    ./.xsession-errors
+    ./.bash_history
+    ./Pictures
+    ./Desktop
+    ./Downloads
+    ./Documents

@@ -1,0 +1,32 @@
+1. I see a list of folders within the directory 
+
+
+recruit@umuzi-admin:~$ ls
+ Desktop        Downloads                    Music      Templates
+'[directory]'   idea-IC-191.6183.87          Pictures   Videos
+ Documents      ideaIC-2019.1-jbr11.tar.gz   Public
+
+
+ 2. It shows the current path.
+
+
+ recruit@umuzi-admin:~$ pwd
+/home/recruit
+
+3. recruit@umuzi-admin:~$ mkdir workspace
+recruit@umuzi-admin:~$ cd workspace
+recruit@umuzi-admin:~/workspace$
+
+
+4. I see an empty folder. It means The folder contains no files.
+
+
+
+
+5.recruit@umuzi-admin:~/workspace$ touch READ.md 
+recruit@umuzi-admin:~/workspace$ ls
+recruit@umuzi-admin:~/workspace$ READ.md
+
+6. recruit@umuzi-admin:~/workspace$ cp READ.md CHANGELOG.md 
+recruit@umuzi-admin:~/workspace$ ls
+CHANGELOG.md  READ.md

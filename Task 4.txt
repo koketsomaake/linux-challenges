@@ -1,0 +1,4 @@
+1.  recruit@umuzi-admin:~/workspace$ locate umuzi
+
+
+2.  recruit@umuzi-admin:~/workspace$ locate umuzi >> search_results.md
